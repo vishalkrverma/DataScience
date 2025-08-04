@@ -112,3 +112,45 @@ By using the co-relation which helps to determine the which column will show the
 What is Collinearity ?
 
 
+LOGISTIC CLASSIFICATION?
+
+Why is Logistic classification classified as Binary Classification ?
+Logistic classification is primarily classified as binary classification because it is designed to solve problems where the target variable has two distinct classes—typically labeled as 0 and 1, or negative and positive.
+
+The core idea lies in the logistic (sigmoid) function, which maps any real-valued input into a range between 0 and 1. This output is interpreted as the probability that the input belongs to the positive class (class 1).
+
+In practice:
+
+If the predicted probability is ≥ 0.5, we classify it as class 1.
+If it’s < 0.5, we classify it as class 0.
+So, it’s inherently suited for binary decisions—does this email contain spam or not, is this transaction fraudulent or not, etc.
+
+Bonus (Optional to Add if Asked About Multiclass):
+While standard logistic regression is binary, it can be extended to multiclass classification using techniques like:
+One-vs-Rest (OvR) – train one binary classifier per class.
+Softmax Regression (Multinomial Logistic Regression) – generalizes logistic regression for multiple classes.
+But in its base form, logistic classification assumes binary outcomes, which is why it's primarily categorized that way.
+
+
+
+Binary Classification ?
+
+
+
+Confusion Matrix:
+The size of Confusion matrix is always be 2X2.
+   true (Positive)      false(Positive)
+   false (Negatvie)     true(Negative)
+
+   True-->Predicted Yes
+   False-->Predicted No
+   Positive--> Original Yes
+   Negative--> Original No
+
+   Testing ka data Positive and Negative batate h.
+   Preficted ka data True and False dete h.
+ 
+   “In the confusion matrix, the true labels form the rows and the predicted labels form the columns. So the diagonal shows correct classifications, and the off-diagonal       cells represent misclassifications.”
+   
+
+
