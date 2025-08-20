@@ -1,4 +1,4 @@
-Mention the difference between data mining and data profiling?
+```Mention the difference between data mining and data profiling?
 Explain the steps involve in any data analytics?
 How does data analyst job role differ from data scientist job role.Which job role did you prefer?
 Explain the tools for data analytics?
